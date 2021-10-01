@@ -1,41 +1,53 @@
-body{
+body {
     background-color: #00DBDE;
-background-image: linear-gradient(45deg, #00DBDE 24%, #FC00FF 74%);
-background-repeat: no-repeat;
-
-}
-.login{
- height: 600px;
-  width: 500px;
-  background-color: rgb(255, 255, 255);
-  margin-left: 35%;
-  margin-top: 5%;
-  margin-bottom: 3%;
+    background-image: linear-gradient(45deg, #00DBDE 24%, #FC00FF 74%);
+    background-repeat: no-repeat;
 }
 
-.head{
+
+.login {
+    height: 600px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 35%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.head {
     font-size: 45px;
     padding: 25px 130px 25px 130px;
     text-decoration: overline;
     color: rebeccapurple;
     font-family: 'Times New Roman', Times, serif;
 }
-.flex{
+
+.flex {
     display: flex;
 }
 
-.cred{
-    font-size: 35px;
-    margin-left: 150px;
-    border-radius: 4px;    
-    
+#fname {
+    height: 30%;
+    padding: 5%;
+    margin-top: 2%;
+    border: outset;
 }
 
-.login-btn{
+.cred {
+    font-size: 35px;
+    margin-left: 150px;
+    border-radius: 4px;
+}
+
+.login-btn {
     color: white;
     border: none;
     background-color: #00DBDE;
     background-image: linear-gradient(45deg, #00DBDE 24%, #FC00FF 74%);
+
+    border-radius: 5px;
+    padding: 3%;
+
     margin-left: 60px;
     height: 30px;
     width: 80px;
@@ -43,15 +55,16 @@ background-repeat: no-repeat;
 .login-btn:hover{
     cursor: pointer;
     transform: scale(1.2);
+
 }
 
-.otherLogin{
+.otherLogin {
     font-size: 15px;
-    color:darkgrey;
+    color: darkgrey;
     margin-left: 60px;
-    
 }
-.fb{
+
+.fb {
     font-family: sans-serif;
     margin-left: -50px;
     width: 150px;
@@ -69,34 +82,42 @@ background-repeat: no-repeat;
 .btn {
     width: 140px;
     height: 10px;
-    
     border: none;
     border-radius: 4px;
-
     display: inline-block;
     font-size: 17px;
     line-height: 20px;
-    text-decoration: none; /* remove underline from anchors */
-  }
+    text-decoration: none;
+    /* remove underline from anchors */
+}
 
- 
- .fa-facebook {
+.fa-facebook {
     background: #3B5998;
     color: white;
     padding: 2px;
-  }
-.fa-google-plus{
+}
+
+.fa-google-plus {
     background: red;
     padding: 2px;
     color: white;
 }
 
+.google {
+    font-family: sans-serif;
+    color: red;
+    background-color: rgb(255, 255, 255);
+    border-color: silver;
+}
+
+
 .notMember{
     font-size: 15px;
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     margin-left: 10px;
+}
 
- } 
+
  .signup{
      color:slateblue;
      margin-left: 5px;
@@ -105,4 +126,5 @@ background-repeat: no-repeat;
  }
 #fname,#password{
     padding: 15px;
+
 }
