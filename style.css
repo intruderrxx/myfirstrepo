@@ -15,8 +15,12 @@ body {
 }
 
 .head {
+    /* position: absolute; */
+    /* left: 5px; */
+    margin: auto;
+    text-align: center;
     font-size: 45px;
-    padding: 25px 130px 25px 130px;
+    padding: 25px 146px;
     text-decoration: overline;
     color: rebeccapurple;
     font-family: 'Times New Roman', Times, serif;
@@ -24,9 +28,19 @@ body {
 
 .flex {
     display: flex;
+    margin: 10px 10px;
+    height: 90px;
+    position: relative;
+    bottom: 50px;
 }
 
 #fname {
+    height: 30%;
+    padding: 5%;
+    margin-top: 2%;
+    border: outset;
+}
+#password{
     height: 30%;
     padding: 5%;
     margin-top: 2%;
@@ -49,7 +63,7 @@ body {
     padding: 3%;
 
     margin-left: 60px;
-    height: 30px;
+    height: 34px;
     width: 80px;
 }
 .login-btn:hover{
@@ -64,12 +78,21 @@ body {
     margin-left: 60px;
 }
 
-.fb {
-    font-family: sans-serif;
-    margin-left: -50px;
-    width: 150px;
-    height: 30px;
+.soc_med {
+    /* position: absolute;
+    left: auto; */
+    margin: 5px;
+    width: 50px;
+    height: 50;
     border: none;
+
+    /* -webkit-filter: invert(1); */
+    /* border: 2px solid black; */
+    border-radius: 15px;
+}
+.soc_med:hover{
+    border: 2px solid black;
+    border-radius: 50px;
 }
 .google{
     font-family: sans-serif;
@@ -112,15 +135,19 @@ body {
 
 
 .notMember{
+    
     font-size: 15px;
     color: rgb(0, 0, 0);
-    margin-left: 10px;
+    margin: 16px -5px;
+    padding: 33px 10px;
+    text-align: center;
+    height: 60px;
 }
 
 
  .signup{
      color:slateblue;
-     margin-left: 5px;
+     margin-left: 0px;
      font-size: 15px;
      text-decoration: none;
  }
