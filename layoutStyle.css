@@ -51,12 +51,21 @@ body {
   font-size: 7rem;
   font-weight: 600;
 }
-
+.inputs input [type=text]{
+  padding-left: 40px;
+}
 .inputs {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
+  position: relative;
+}
+.inputs i{
+  position: absolute;
+  left: 200px;
+  top: 30px;
+  padding: 8px 9px;
 }
 .text-input {
 
