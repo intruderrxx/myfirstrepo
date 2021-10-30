@@ -1,5 +1,21 @@
 /* Made with love by Mutiullah Samim*/
 
+.login {
+    height: 600px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.87);
+    margin-left: 35%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.head {
+    font-size: 45px;
+    padding: 25px 130px 25px 130px;
+    text-decoration: overline;
+    color: #FC00FF;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5%;
 @import url('https://fonts.googleapis.com/css?family=Numans');
 
 html,body{
@@ -30,6 +46,43 @@ margin-left: 10px;
 color: #FFC312;
 }
 
+.login-btn {
+    color: white;
+    border: none;
+    background-color: #00DBDE;
+    background-image: linear-gradient(45deg, #00DBDE 24%, #FC00FF 74%);
+    border-radius: 5px;
+    padding: 3%;
+    margin-left: 60px;
+    height: 40px;
+    width: 100px;
+}
+
+.login-btn:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.otherLogin {
+    font-size: 15px;
+    color: rgb(134, 131, 131);
+    margin-left: 60px;
+}
+
+.fb {
+    font-family: sans-serif;
+    margin-left: -50px;
+    width: 150px;
+    height: 30px;
+    border: none;
+}
+
+.google {
+    font-family: sans-serif;
+    color: red;
+    width: 150px;
+    height: 30px;
+    border: none;
 .social_icon span:hover{
 color: white;
 cursor: pointer;
@@ -70,6 +123,24 @@ margin-left: 15px;
 margin-right: 5px;
 }
 
+.notMember {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+}
+
+.signup {
+    color: slateblue;
+    margin-left: 5px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#fname,
+#password {
+    padding: 15px;
+    background-color: rgb(217, 245, 235);
+    border: outset;
 .login_btn{
 color: black;
 background-color: #FFC312;
